@@ -1,0 +1,77 @@
+/* reset */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+/* /reset */
+
+* main */
+main {
+    font-family:'Fredoka', sans-serif;
+    padding-top:  2rem;
+   
+}
+
+body{
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: 0% auto;
+}
+h1{ 
+    color:rgb(213, 56, 114) ;
+    font-size: 3rem;
+    
+    
+}
+p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* columns layout */
+.col {
+    float: left;
+    width: calc(100% / 3);
+    min-height: 100px;
+    padding: 0 20px;
+    color: white;
+    
+
+}
+.avatar{
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+.card {
+    background-color: black;
+    margin-bottom: 50px;
+    text-align: left;
+    line-height: 2rem;
+    font-size: small;
+   
+
+}
+.email {
+    color: rgb(21, 154, 255);
+}
+
+h3{ 
+    margin-top: 20px;
+}
+
+/* /columns layout */
+/* /main */
+
+  
